@@ -94,8 +94,6 @@ a:hover {
 	padding-top: 60px;
 }
 
-/* //TODO: 
-//FIXME: 
 code below are for mobile view */
 /* home page */
 .warpperHome {
@@ -353,7 +351,7 @@ code below are for mobile view */
 	display: grid;
 }
 .productCard h1 {
-	font-size: 2rem;
+	font-size: 1rem;
 	text-align: left;
 }
 .productCard h4 {
@@ -365,7 +363,7 @@ code below are for mobile view */
 	height: 90%;
 	border-radius: 10px;
 }
-/* //FIXME: */
+
 .gridContainer {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -392,7 +390,7 @@ code below are for mobile view */
 	color: white;
 	background-color: #2d2d2d;
 }
-/* //TODO: FIXME: code below is for tabelate view */
+/* code below is for tabelate view */
 /* Tablet menu */
 @media all and (min-width: 468px) {
 	.menu {
@@ -626,7 +624,7 @@ code below are for mobile view */
 		text-align: center;
 		margin-top: 20px;
 	}
-	/* //FIXME: */
+
 	.gridContainer {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -671,7 +669,7 @@ code below are for mobile view */
 		width: 90%;
 		margin: 0 auto;
 		display: grid;
-		grid-template-rows: 2fr 6fr 1fr;
+		grid-template-rows: 1fr 6fr 1fr;
 	}
 	.productCard {
 		margin: 10px 10px;
@@ -681,7 +679,7 @@ code below are for mobile view */
 		display: grid;
 	}
 	.productCard h1 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		text-align: left;
 	}
 	.productCard h4 {
@@ -710,7 +708,7 @@ code below are for mobile view */
 		background-color: #2d2d2d;
 	}
 }
-/* //TODO: //FIXME:code below is for desktop view */
+/* code below is for desktop view */
 /* Desktop menu */
 @media all and (min-width: 804px) {
 	.item {
@@ -961,7 +959,6 @@ code below are for mobile view */
 	}
 
 	.gridContainer {
-		/* //FIXME: */
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		width: 90%;
