@@ -17,9 +17,12 @@ app.get("/", (req, res) => {
 app.get("/products", (req, res) => {
 	res.render("products", { data });
 });
-app.use("/login", loginRoutes);
-app.use("/register", registerRoutes);
-app.use("/api/products", productsRoutes);
+app.get("/const", (req, res) => {
+	res.render("upcomming");
+});
+// app.use("/login", loginRoutes);
+// app.use("/register", registerRoutes);
+// app.use("/api/products", productsRoutes);
 app.get("*", (req, res) => {
 	res.sendStatus(404);
 });

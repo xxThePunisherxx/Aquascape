@@ -6,7 +6,7 @@
 }
 
 nav {
-	background: #2d2d2d;
+	background: black;
 	padding: 2px 40px;
 }
 ul {
@@ -200,9 +200,9 @@ code below are for mobile view */
 	letter-spacing: 2px;
 }
 .gal-btn {
-	color: #2d2d2d;
+	color: black;
 	background-color: transparent;
-	border: 2px solid #2d2d2d;
+	border: 2px solid black;
 	font-size: 1.5rem;
 	font-weight: 600;
 	border-radius: 10px;
@@ -213,7 +213,7 @@ code below are for mobile view */
 }
 .gal-btn:hover {
 	color: white;
-	background-color: #2d2d2d;
+	background-color: black;
 }
 .contact {
 	display: flex;
@@ -224,7 +224,7 @@ code below are for mobile view */
 }
 .contact h1 {
 	font-size: 2rem;
-	color: #2d2d2d;
+	color: black;
 	margin-left: 20px;
 }
 .phone a {
@@ -241,12 +241,12 @@ code below are for mobile view */
 }
 .phone h2 {
 	font-size: 1.2rem;
-	color: #2d2d2d;
+	color: black;
 	margin-left: 10px;
 }
 .address h2 {
 	font-size: 1.2rem;
-	color: #2d2d2d;
+	color: black;
 	margin-left: 10px;
 }
 .address a {
@@ -259,7 +259,7 @@ code below are for mobile view */
 
 .rightContact label {
 	font-size: 1.5rem;
-	color: #2d2d2d;
+	color: black;
 	font-weight: bold;
 }
 .rightContact input {
@@ -273,9 +273,9 @@ code below are for mobile view */
 	color: #2d2d2d20;
 }
 #btn {
-	color: #2d2d2d;
+	color: black;
 	background-color: transparent;
-	border: 2px solid #2d2d2d;
+	border: 2px solid black;
 	font-size: 1.5rem;
 	font-weight: 600;
 	border-radius: 10px;
@@ -286,7 +286,7 @@ code below are for mobile view */
 }
 #btn:hover {
 	color: white;
-	background-color: #2d2d2d;
+	background-color: black;
 }
 #shop-grid {
 	display: grid;
@@ -375,9 +375,9 @@ code below are for mobile view */
 	row-gap: 30px;
 }
 .shopBtn {
-	color: #2d2d2d;
+	color: black;
 	background-color: transparent;
-	border: 2px solid #2d2d2d;
+	border: 2px solid black;
 	font-size: 1.5rem;
 	font-weight: 600;
 	border-radius: 10px;
@@ -388,7 +388,27 @@ code below are for mobile view */
 }
 .shopBtn:hover {
 	color: white;
-	background-color: #2d2d2d;
+	background-color: black;
+}
+.footer {
+	color: white;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr;
+	column-gap: 30px;
+	padding: 3rem 5rem;
+	text-align: center;
+	/* //FIXME: */
+}
+.footer ul {
+	margin-top: 20px;
+}
+.footer h2 {
+	font-size: 1.5rem;
+	margin: 20px 0;
+}
+.footer li {
+	margin: 8px 0px;
 }
 /* code below is for tabelate view */
 /* Tablet menu */
@@ -521,9 +541,9 @@ code below are for mobile view */
 		letter-spacing: 2px;
 	}
 	.gal-btn {
-		color: #2d2d2d;
+		color: black;
 		background-color: transparent;
-		border: 2px solid #2d2d2d;
+		border: 2px solid black;
 		font-size: 1.5rem;
 		font-weight: 600;
 		border-radius: 10px;
@@ -534,7 +554,7 @@ code below are for mobile view */
 	}
 	.gal-btn:hover {
 		color: white;
-		background-color: #2d2d2d;
+		background-color: black;
 	}
 	.contact {
 		display: flex;
@@ -545,7 +565,7 @@ code below are for mobile view */
 	}
 	.contact h1 {
 		font-size: 3rem;
-		color: #2d2d2d;
+		color: black;
 	}
 	.phone a {
 		display: flex;
@@ -561,12 +581,12 @@ code below are for mobile view */
 	}
 	.phone h2 {
 		font-size: 1.4rem;
-		color: #2d2d2d;
+		color: black;
 		margin-left: 10px;
 	}
 	.address h2 {
 		font-size: 1.4rem;
-		color: #2d2d2d;
+		color: black;
 		margin-left: 10px;
 	}
 	.address a {
@@ -579,7 +599,7 @@ code below are for mobile view */
 
 	.rightContact label {
 		font-size: 1.5rem;
-		color: #2d2d2d;
+		color: black;
 		font-weight: bold;
 	}
 	.rightContact input {
@@ -587,17 +607,11 @@ code below are for mobile view */
 		margin-bottom: 5px;
 		margin-left: 10px;
 	}
-	.rightContact input::placeholder {
-		color: #2d2d2d20;
-	}
-	#message::placeholder {
-		font-size: 1.4rem;
-		color: #2d2d2d20;
-	}
+
 	#btn {
-		color: #2d2d2d;
+		color: black;
 		background-color: transparent;
-		border: 2px solid #2d2d2d;
+		border: 2px solid black;
 		font-size: 1.5rem;
 		font-weight: 600;
 		border-radius: 10px;
@@ -609,7 +623,7 @@ code below are for mobile view */
 
 	#btn:hover {
 		color: white;
-		background-color: #2d2d2d;
+		background-color: black;
 	}
 
 	#shop-grid {
@@ -692,9 +706,9 @@ code below are for mobile view */
 		border-radius: 10px;
 	}
 	.shopBtn {
-		color: #2d2d2d;
+		color: black;
 		background-color: transparent;
-		border: 2px solid #2d2d2d;
+		border: 2px solid black;
 		font-size: 1.5rem;
 		font-weight: 600;
 		border-radius: 10px;
@@ -705,8 +719,10 @@ code below are for mobile view */
 	}
 	.shopBtn:hover {
 		color: white;
-		background-color: #2d2d2d;
+		background-color: black;
 	}
+
+	/* //FIXME: */
 }
 /* code below is for desktop view */
 /* Desktop menu */
@@ -863,9 +879,9 @@ code below are for mobile view */
 		letter-spacing: 2px;
 	}
 	.gal-btn {
-		color: #2d2d2d;
+		color: black;
 		background-color: transparent;
-		border: 2px solid #2d2d2d;
+		border: 2px solid black;
 		font-size: 1.5rem;
 		font-weight: 600;
 		border-radius: 10px;
@@ -876,7 +892,7 @@ code below are for mobile view */
 	}
 	.gal-btn:hover {
 		color: white;
-		background-color: #2d2d2d;
+		background-color: black;
 	}
 	.leftContact {
 		margin-right: 10px;
@@ -890,7 +906,7 @@ code below are for mobile view */
 	}
 	.contact h1 {
 		font-size: 4rem;
-		color: #2d2d2d;
+		color: black;
 	}
 	.phone a {
 		display: flex;
@@ -898,12 +914,12 @@ code below are for mobile view */
 	}
 	.phone h2 {
 		font-size: 2rem;
-		color: #2d2d2d;
+		color: black;
 		margin-left: 20px;
 	}
 	.address h2 {
 		font-size: 2rem;
-		color: #2d2d2d;
+		color: black;
 		margin-left: 20px;
 	}
 	.address a {
@@ -918,7 +934,7 @@ code below are for mobile view */
 		margin-bottom: 5px;
 		margin-left: 10px;
 		font-size: 3rem;
-		color: #2d2d2d;
+		color: black;
 		font-weight: bold;
 	}
 	.rightContact input {
@@ -935,9 +951,9 @@ code below are for mobile view */
 		color: #2d2d2d20;
 	}
 	#btn {
-		color: #2d2d2d;
+		color: black;
 		background-color: transparent;
-		border: 2px solid #2d2d2d;
+		border: 2px solid black;
 		font-size: 1.5rem;
 		font-weight: 600;
 		border-radius: 10px;
@@ -949,7 +965,7 @@ code below are for mobile view */
 
 	#btn:hover {
 		color: white;
-		background-color: #2d2d2d;
+		background-color: black;
 	}
 
 	.productCard img {
@@ -977,9 +993,9 @@ code below are for mobile view */
 	}
 
 	.shopBtn {
-		color: #2d2d2d;
+		color: black;
 		background-color: transparent;
-		border: 2px solid #2d2d2d;
+		border: 2px solid black;
 		font-size: 1.5rem;
 		font-weight: 600;
 		border-radius: 10px;
@@ -990,12 +1006,9 @@ code below are for mobile view */
 	}
 	.shopBtn:hover {
 		color: white;
-		background-color: #2d2d2d;
+		background-color: black;
 	}
-	/* .gridContainer {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-	} */
+
 	.landingShopGrid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1058,20 +1071,15 @@ code below are for mobile view */
 		height: 90%;
 		border-radius: 10px;
 	}
-}
-
-/* .gridContainer {
-	display: grid;
-	grid-template-columns: 1fr;
-	row-gap: 20px;
-	column-gap: 20px;
-	width: 95%;
-	margin: 75px auto;
-	text-align: center;
-} */
-/* @media all and (min-width: 468px) {
-	.gridContainer {
+	.footer {
+		color: white;
+		background-color: black;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		column-gap: 30px;
+		padding-top: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		padding-bottom: 30px;
 	}
-} */
+}
