@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const data = require("./data.js");
+const { data, images } = require("./data.js");
 const hbs = require("hbs");
 
 const staticPath = __dirname + "/public";
@@ -12,6 +12,9 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
 	res.render("index");
+});
+app.get("/gal", (req, res) => {
+	res.render("galleryPage", { images });
 });
 
 app.get("/products", (req, res) => {

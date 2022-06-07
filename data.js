@@ -260,5 +260,33 @@ const data = [
 		},
 	},
 ];
+const images = [
+	{
+		id: 1,
+		title: "Green Aqua CO2 system with CO2 reactor (16/22 mm)",
+		price: 227.96,
+		description:
+			"Contains every thing you need to  setup a CO2 system for your arquarium.The set does not contain the CO2 canister by default, CO2 cylinders not allowed to ship by the law.",
+		category: "CO2",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/c/o/co2_rendszer_reaktor_1.jpg",
+		rating: {
+			rate: 3.9,
+			count: 120,
+		},
+	},
+	{
+		id: 20,
+		title: "ADA Solar RGB - LED light 130 W",
+		price: 829.37,
+		description:
+			"High Color Rendering LED Lighting System for Planted Aquarium Innovative LED lighting that brightens up your plants.We are very excited to announce that the long anticipated launch of our newest LED lighting system, Solar RGB, is around the corner! Having a different type of LED lighting than that of the AQUASKY series, Solar RGB is equipped with RGB LED lights, which make red and green colors of aquatic plants look more brightly and efficiently.",
+		category: "lighting",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/s/o/solar_rgb_2.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+];
 
-module.exports = data;
+module.exports = { data, images };
