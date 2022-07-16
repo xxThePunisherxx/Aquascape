@@ -9,13 +9,16 @@ nav {
 	background: black;
 	padding: 2px 40px;
 }
+
 ul {
 	list-style-type: none;
 }
+
 a {
 	color: white;
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: underline;
 	padding-right: 8px;
@@ -27,6 +30,7 @@ a:hover {
 	/* margin-right: 10px; */
 	white-space: nowrap;
 }
+
 /* 
 /* Mobile menu */
 .menu {
@@ -39,15 +43,18 @@ a:hover {
 .toggle {
 	order: 1;
 }
+
 .item.button {
 	order: 2;
 }
+
 .item {
 	width: 100%;
 	text-align: center;
 	order: 3;
 	display: none;
 }
+
 .item.active {
 	display: block;
 }
@@ -56,6 +63,7 @@ a:hover {
 .toggle {
 	cursor: pointer;
 }
+
 .bars {
 	background: white;
 	display: inline-block;
@@ -64,6 +72,7 @@ a:hover {
 	transition: background 0.2s ease-out;
 	width: 18px;
 }
+
 .bars:before,
 .bars:after {
 	background: white;
@@ -74,12 +83,15 @@ a:hover {
 	transition: all 0.2s ease-out;
 	width: 100%;
 }
+
 .bars:before {
 	top: 5px;
 }
+
 .bars:after {
 	top: -5px;
 }
+
 .content {
 	padding: 16px;
 }
@@ -90,16 +102,18 @@ a:hover {
 	width: 100%;
 }
 
-.sticky + .content {
+.sticky+.content {
 	padding-top: 60px;
 }
 
 code below are for mobile view */
+
 /* home page */
 .warpperHome {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
 .home {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg8.jpg);
 	height: 50vh;
@@ -115,13 +129,16 @@ code below are for mobile view */
 	color: white;
 	font-family: "Exo", sans-serif;
 }
+
 .text h1 {
 	padding-top: 160px;
 	font-size: 2rem;
 }
+
 .text h2 {
 	display: none;
 }
+
 .lower-text {
 	display: none;
 }
@@ -130,15 +147,18 @@ code below are for mobile view */
 	margin: 45px 50px;
 	text-align: justify;
 }
+
 .about h1 {
 	font-size: 2rem;
 	letter-spacing: 2px;
 	text-align: center;
 	margin-top: 20px;
 }
+
 .about h2 {
 	font-size: 1.5rem;
 }
+
 .about p {
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -151,12 +171,15 @@ code below are for mobile view */
 	margin: 50px auto;
 	flex-wrap: wrap;
 }
+
 .labt img {
 	border-radius: 5px;
 }
+
 .rabt img {
 	border-radius: 5px;
 }
+
 .about-img img {
 	margin-bottom: 20px;
 	width: 100%;
@@ -181,12 +204,14 @@ code below are for mobile view */
 	width: 95%;
 	margin-left: 10px;
 }
-.image-grid > img {
+
+.image-grid>img {
 	max-width: 100%;
 	height: 100%;
 	object-fit: cover;
 	border-radius: 20px;
 }
+
 .image-grid-col-2 {
 	grid-column: span 2;
 }
@@ -195,10 +220,12 @@ code below are for mobile view */
 	text-align: center;
 	margin-top: 50px;
 }
+
 .gallery h1 {
 	font-size: 2rem;
 	letter-spacing: 2px;
 }
+
 .gal-btn {
 	color: black;
 	background-color: transparent;
@@ -211,10 +238,12 @@ code below are for mobile view */
 	margin: 50px 0px;
 	cursor: pointer;
 }
+
 .gal-btn:hover {
 	color: white;
 	background-color: black;
 }
+
 .contact {
 	display: flex;
 	/* width: 95%; */
@@ -222,37 +251,45 @@ code below are for mobile view */
 	align-items: center;
 	flex-wrap: wrap;
 }
+
 .contact h1 {
 	font-size: 2rem;
 	color: black;
 	margin-left: 20px;
 }
+
 .phone a {
 	display: flex;
 	margin: 20px 50px;
 }
+
 #phoneImg {
 	height: 20px;
 	width: 20px;
 }
+
 #locationImg {
 	height: 20px;
 	width: 20px;
 }
+
 .phone h2 {
 	font-size: 1.2rem;
 	color: black;
 	margin-left: 10px;
 }
+
 .address h2 {
 	font-size: 1.2rem;
 	color: black;
 	margin-left: 10px;
 }
+
 .address a {
 	display: flex;
 	margin: 20px 50px;
 }
+
 .rightContact {
 	padding-top: 39px;
 }
@@ -262,16 +299,20 @@ code below are for mobile view */
 	color: black;
 	font-weight: bold;
 }
+
 .rightContact input {
 	font-size: 1.2rem;
 }
+
 .rightContact input::placeholder {
 	color: #2d2d2d20;
 }
+
 #message::placeholder {
 	font-size: 1.2rem;
 	color: #2d2d2d20;
 }
+
 #btn {
 	color: black;
 	background-color: transparent;
@@ -284,10 +325,12 @@ code below are for mobile view */
 	margin: 50px 0px;
 	cursor: pointer;
 }
+
 #btn:hover {
 	color: white;
 	background-color: black;
 }
+
 #shop-grid {
 	display: grid;
 	grid-template-rows: 1fr;
@@ -295,19 +338,22 @@ code below are for mobile view */
 	column-gap: 20px;
 	padding: 40px;
 }
+
 #prod img {
 	width: 90%;
 	height: 90%;
 }
+
 .shop-h1 {
 	font-size: 2rem;
 	text-align: center;
 	margin-top: 20px;
 }
+
 .landingShopCard {
 	text-align: left;
 	margin-top: 20px;
-	height: 500px;
+	/* height: 500px; */
 	display: grid;
 	justify-content: center;
 	align-items: center;
@@ -315,25 +361,35 @@ code below are for mobile view */
 	grid-template-rows: 5fr 1fr 1fr;
 	row-gap: 10px;
 }
+
 .landingShopCard h1 {
 	font-size: 1.7rem;
 }
+
 .landingShopCard p {
 	margin-left: 10px;
 	margin-top: 10px;
 	font-size: 1rem;
+	color: black;
 }
+
 .landingShopCard img {
 	width: 100%;
 	height: 100%;
 }
+
 .shopwrapper h1 {
 	font-size: 4rem;
-	margin-top: 10px;
+	margin-top: 50px;
+	margin-bottom: 80px;
 }
+
 .landingShopCard h1 {
 	font-size: 1.7rem;
+	color: black;
+	margin-bottom: 30px;
 }
+
 .shopwrapper {
 	text-align: center;
 	padding: 10px 10px;
@@ -343,6 +399,7 @@ code below are for mobile view */
 	grid-template-rows: 0.1fr 6fr 0.1fr;
 	row-gap: 10px;
 }
+
 .productCard {
 	margin: 10px 10px;
 	text-align: center;
@@ -350,14 +407,19 @@ code below are for mobile view */
 	border-radius: 10px;
 	display: grid;
 }
+
 .productCard h1 {
 	font-size: 1rem;
 	text-align: left;
+	color: black;
 }
+
 .productCard h4 {
-	font-size: 1.5rem;
+	margin-top: 10px;
 	text-align: left;
+	color: black;
 }
+
 .productCard img {
 	width: 90%;
 	height: 90%;
@@ -369,11 +431,13 @@ code below are for mobile view */
 	grid-template-columns: 1fr;
 	margin-top: 60px;
 }
+
 .landingShopGrid {
 	display: grid;
 	grid-template-columns: 1fr;
-	row-gap: 30px;
+	row-gap: 130px;
 }
+
 .shopBtn {
 	color: black;
 	background-color: transparent;
@@ -386,10 +450,12 @@ code below are for mobile view */
 	margin-top: 50px;
 	cursor: pointer;
 }
+
 .shopBtn:hover {
 	color: white;
 	background-color: black;
 }
+
 .footer {
 	color: white;
 	background-color: black;
@@ -400,16 +466,20 @@ code below are for mobile view */
 	text-align: center;
 	/* //FIXME: */
 }
+
 .footer ul {
 	margin-top: 20px;
 }
+
 .footer h2 {
 	font-size: 1.5rem;
 	margin: 20px 0;
 }
+
 .footer li {
 	margin: 8px 0px;
 }
+
 /* code below is for tabelate view */
 /* Tablet menu */
 @media all and (min-width: 468px) {
@@ -426,9 +496,11 @@ code below are for mobile view */
 		order: 1;
 		display: block;
 	}
+
 	.toggle {
 		order: 2;
 	}
+
 	.content {
 		padding: 16px;
 	}
@@ -439,14 +511,16 @@ code below are for mobile view */
 		width: 100%;
 	}
 
-	.sticky + .content {
+	.sticky+.content {
 		padding-top: 60px;
 	}
+
 	/* home page */
 	.warpperHome {
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+
 	.home {
 		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg8.jpg);
 		height: 50vh;
@@ -461,48 +535,60 @@ code below are for mobile view */
 		color: white;
 		font-family: "Exo", sans-serif;
 	}
+
 	.text h1 {
 		padding-top: 222px;
 		font-size: 3rem;
 	}
+
 	.text h2 {
 		display: none;
 	}
+
 	.lower-text {
 		display: none;
 	}
+
 	.about {
 		text-align: justify;
 	}
+
 	.about h1 {
 		text-align: center;
 		font-size: 3rem;
 		letter-spacing: 2px;
 	}
+
 	.about h2 {
 		font-size: 2rem;
 		margin-top: 20px;
 	}
+
 	.about p {
 		font-size: 1.2rem;
 		font-weight: 500;
 		margin-top: 20px;
 	}
+
 	.about-img {
 		width: 95%;
 		display: flex;
 		margin: 50px auto;
 		flex-wrap: wrap;
 	}
+
 	.labt img {
 		border-radius: 10px;
 	}
+
 	.rabt img {
 		border-radius: 10px;
 	}
+
 	.about-img img {
 		width: 100%;
 	}
+
 	.shop {
 		height: 100vh;
 		display: grid;
@@ -522,12 +608,14 @@ code below are for mobile view */
 		width: 95%;
 		margin-left: 20px;
 	}
-	.image-grid > img {
+
+	.image-grid>img {
 		max-width: 100%;
 		height: 100%;
 		object-fit: cover;
 		border-radius: 10px;
 	}
+
 	.image-grid-col-2 {
 		grid-column: span 2;
 	}
@@ -536,10 +624,12 @@ code below are for mobile view */
 		text-align: center;
 		margin-top: 50px;
 	}
+
 	.gallery h1 {
 		font-size: 3rem;
 		letter-spacing: 2px;
 	}
+
 	.gal-btn {
 		color: black;
 		background-color: transparent;
@@ -552,10 +642,12 @@ code below are for mobile view */
 		margin: 50px 0px;
 		cursor: pointer;
 	}
+
 	.gal-btn:hover {
 		color: white;
 		background-color: black;
 	}
+
 	.contact {
 		display: flex;
 		/* width: 95%; */
@@ -563,36 +655,44 @@ code below are for mobile view */
 		align-items: center;
 		flex-wrap: wrap;
 	}
+
 	.contact h1 {
 		font-size: 3rem;
 		color: black;
 	}
+
 	.phone a {
 		display: flex;
 		margin: 20px 50px;
 	}
+
 	#phoneImg {
 		height: 30px;
 		width: 30px;
 	}
+
 	#locationImg {
 		height: 30px;
 		width: 30px;
 	}
+
 	.phone h2 {
 		font-size: 1.4rem;
 		color: black;
 		margin-left: 10px;
 	}
+
 	.address h2 {
 		font-size: 1.4rem;
 		color: black;
 		margin-left: 10px;
 	}
+
 	.address a {
 		display: flex;
 		margin: 20px 50px;
 	}
+
 	.rightContact {
 		padding-top: 39px;
 	}
@@ -602,6 +702,7 @@ code below are for mobile view */
 		color: black;
 		font-weight: bold;
 	}
+
 	.rightContact input {
 		font-size: 1.4rem;
 		margin-bottom: 5px;
@@ -633,6 +734,7 @@ code below are for mobile view */
 		column-gap: 40px;
 		padding: 30px;
 	}
+
 	.shop-h1 {
 		font-size: 3rem;
 		text-align: center;
@@ -643,11 +745,13 @@ code below are for mobile view */
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+
 	.landingShopGrid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		column-gap: 30px;
 	}
+
 	.landingShopCard {
 		text-align: left;
 		margin-top: 20px;
@@ -658,25 +762,31 @@ code below are for mobile view */
 		justify-items: stretch;
 		grid-template-rows: 5fr 1fr 1fr;
 	}
+
 	.landingShopCard h1 {
 		font-size: 1.7rem;
 	}
+
 	.landingShopCard p {
 		margin-left: 10px;
 		margin-top: 10px;
 		font-size: 1rem;
 	}
+
 	.landingShopCard img {
 		width: 100%;
 		height: 100%;
 	}
+
 	.shopwrapper h1 {
 		font-size: 4rem;
 		margin-top: 10px;
 	}
+
 	.landingShopCard h1 {
 		font-size: 1.7rem;
 	}
+
 	.shopwrapper {
 		text-align: center;
 		padding: 10px 10px;
@@ -685,6 +795,7 @@ code below are for mobile view */
 		display: grid;
 		grid-template-rows: 1fr 6fr 1fr;
 	}
+
 	.productCard {
 		margin: 10px 10px;
 		text-align: center;
@@ -692,19 +803,23 @@ code below are for mobile view */
 		border-radius: 10px;
 		display: grid;
 	}
+
 	.productCard h1 {
 		font-size: 1.5rem;
 		text-align: left;
 	}
+
 	.productCard h4 {
 		font-size: 1.5rem;
 		text-align: left;
 	}
+
 	.productCard img {
 		width: 90%;
 		height: 90%;
 		border-radius: 10px;
 	}
+
 	.shopBtn {
 		color: black;
 		background-color: transparent;
@@ -717,6 +832,7 @@ code below are for mobile view */
 		margin-top: 50px;
 		cursor: pointer;
 	}
+
 	.shopBtn:hover {
 		color: white;
 		background-color: black;
@@ -724,6 +840,7 @@ code below are for mobile view */
 
 	/* //FIXME: */
 }
+
 /* code below is for desktop view */
 /* Desktop menu */
 @media all and (min-width: 804px) {
@@ -731,12 +848,15 @@ code below are for mobile view */
 		display: block;
 		width: auto;
 	}
+
 	.toggle {
 		display: none;
 	}
+
 	.logo {
 		order: 0;
 	}
+
 	.item {
 		order: 1;
 	}
@@ -744,6 +864,7 @@ code below are for mobile view */
 	.menu li {
 		padding: 15px 10px;
 	}
+
 	/* Sticky nav bar */
 	.content {
 		padding: 16px;
@@ -755,14 +876,16 @@ code below are for mobile view */
 		width: 100%;
 	}
 
-	.sticky + .content {
+	.sticky+.content {
 		padding-top: 60px;
 	}
+
 	/* home page */
 	.warpperHome {
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+
 	.home {
 		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg8.jpg);
 		height: 100vh;
@@ -779,69 +902,85 @@ code below are for mobile view */
 		color: white;
 		font-family: "Exo", sans-serif;
 	}
+
 	.text h1 {
 		padding-top: 380px;
 		font-size: 4rem;
 	}
+
 	.text h2 {
 		font-size: 2rem;
 		font-weight: 200;
 	}
+
 	.lower-text {
 		display: grid;
 		color: white;
 		grid-template-columns: 6fr 1fr;
 		margin-top: 50px;
 	}
+
 	.left h2 {
 		font-size: 2rem;
 		margin-bottom: 10px;
 		text-transform: uppercase;
 	}
+
 	.left p {
 		font-size: 1.5rem;
 		text-align: justify;
 		text-transform: uppercase;
 	}
+
 	.about {
 		margin: 0px 50px;
 		text-align: justify;
 	}
+
 	.about p {
 		margin: 50px;
 	}
+
 	.about h1 {
 		text-align: center;
 		margin: 50px;
 	}
+
 	.about-img {
 		width: 95%;
 		display: flex;
 		margin: 50px auto;
 		flex-wrap: nowrap;
 	}
+
 	.labt img {
 		border-radius: 30px;
 	}
+
 	.rabt img {
 		border-radius: 30px;
 	}
+
 	.about-img img {
 		width: 100%;
 		padding: 0px 10px;
 	}
+
 	.about h1 {
 		font-size: 4rem;
 		letter-spacing: 2px;
 	}
+
 	.about h2 {
 		font-size: 2rem;
 		padding-left: 60px;
 	}
+
 	.about p {
 		font-size: 1.2rem;
 		font-weight: 500;
 	}
+
 	.shop {
 		height: 100vh;
 		display: grid;
@@ -860,12 +999,14 @@ code below are for mobile view */
 		gap: var(--gap);
 		width: 95%;
 	}
-	.image-grid > img {
+
+	.image-grid>img {
 		max-width: 100%;
 		height: 100%;
 		object-fit: cover;
 		border-radius: 20px;
 	}
+
 	.image-grid-col-2 {
 		grid-column: span 2;
 	}
@@ -874,10 +1015,12 @@ code below are for mobile view */
 		text-align: center;
 		margin-top: 50px;
 	}
+
 	.gallery h1 {
 		font-size: 4rem;
 		letter-spacing: 2px;
 	}
+
 	.gal-btn {
 		color: black;
 		background-color: transparent;
@@ -890,13 +1033,16 @@ code below are for mobile view */
 		margin: 50px 0px;
 		cursor: pointer;
 	}
+
 	.gal-btn:hover {
 		color: white;
 		background-color: black;
 	}
+
 	.leftContact {
 		margin-right: 10px;
 	}
+
 	.contact {
 		display: flex;
 		/* width: 95%; */
@@ -904,28 +1050,34 @@ code below are for mobile view */
 		justify-content: space-evenly;
 		align-items: center;
 	}
+
 	.contact h1 {
 		font-size: 4rem;
 		color: black;
 	}
+
 	.phone a {
 		display: flex;
 		margin: 20px 50px;
 	}
+
 	.phone h2 {
 		font-size: 2rem;
 		color: black;
 		margin-left: 20px;
 	}
+
 	.address h2 {
 		font-size: 2rem;
 		color: black;
 		margin-left: 20px;
 	}
+
 	.address a {
 		display: flex;
 		margin: 20px 50px;
 	}
+
 	.rightContact {
 		padding-top: 69px;
 	}
@@ -937,19 +1089,23 @@ code below are for mobile view */
 		color: black;
 		font-weight: bold;
 	}
+
 	.rightContact input {
 		margin-top: 5px;
 
 		font-size: 2rem;
 		margin-left: 1px;
 	}
+
 	.rightContact input::placeholder {
 		color: #2d2d2d20;
 	}
+
 	#message::placeholder {
 		font-size: 2rem;
 		color: #2d2d2d20;
 	}
+
 	#btn {
 		color: black;
 		background-color: transparent;
@@ -980,11 +1136,13 @@ code below are for mobile view */
 		width: 90%;
 		margin: 72px auto;
 	}
+
 	.shop-h1 {
 		font-size: 4rem;
 		text-align: center;
 		margin-top: 20px;
 	}
+
 	#shop-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1004,6 +1162,7 @@ code below are for mobile view */
 		margin-top: 50px;
 		cursor: pointer;
 	}
+
 	.shopBtn:hover {
 		color: white;
 		background-color: black;
@@ -1014,6 +1173,7 @@ code below are for mobile view */
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		column-gap: 30px;
 	}
+
 	.landingShopCard {
 		text-align: left;
 		margin-top: 20px;
@@ -1024,33 +1184,40 @@ code below are for mobile view */
 		justify-items: stretch;
 		grid-template-rows: 5fr 1fr 1fr;
 	}
+
 	.landingShopCard h1 {
 		font-size: 1.7rem;
 	}
+
 	.landingShopCard p {
 		margin-left: 10px;
 		margin-top: 10px;
 		font-size: 1rem;
 	}
+
 	.landingShopCard img {
 		width: 100%;
 		height: 100%;
 	}
+
 	.shopwrapper h1 {
 		font-size: 4rem;
 		margin-top: 10px;
 	}
+
 	.landingShopCard h1 {
 		font-size: 1.7rem;
 	}
+
 	.shopwrapper {
-		text-align: center;
-		padding: 10px 10px;
+		/* text-align: center; */
+		/* padding: 10px 10px; */
 		width: 90%;
 		margin: 0 auto;
 		display: grid;
-		grid-template-rows: 2fr 5.5fr 1fr;
+		/* grid-template-rows: 2fr 5.5fr 1fr; */
 	}
+
 	.productCard {
 		margin: 10px 10px;
 		text-align: center;
@@ -1058,19 +1225,23 @@ code below are for mobile view */
 		border-radius: 10px;
 		display: grid;
 	}
+
 	.productCard h1 {
 		font-size: 2rem;
 		text-align: left;
 	}
+
 	.productCard h4 {
 		font-size: 1.5rem;
 		text-align: left;
 	}
+
 	.productCard img {
 		width: 90%;
 		height: 90%;
 		border-radius: 10px;
 	}
+
 	.footer {
 		color: white;
 		background-color: black;
@@ -1082,4 +1253,74 @@ code below are for mobile view */
 		padding-right: 200px;
 		padding-bottom: 30px;
 	}
+
+	.individual {
+		margin: 100px;
+		/* background-color: rebeccapurple; */
+	}
+
+	.individual .productDisp {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.individual .productDisp .left {
+		place-self: center;
+		margin-left: 50px;
+	}
+
+	.individual .productDisp .left img {
+		height: 600px;
+
+	}
+
+	.individual .productDisp .right {
+		place-self: center;
+		margin-left: 50px;
+	}
+
+	.individual .productDisp .right h1 {
+		font-size: 2rem;
+	}
+
+	.individual .productDisp .right h2 {
+		font-size: 1.5rem;
+		margin: 20px 0px;
+	}
+
+	.individual .productDisp .right p {
+		font-size: 1.5rem;
+		margin: 20px 0px;
+	}
+
+	/* .individual .productDisp .right a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.individual .productDisp .right a:hover {
+		text-decoration: none;
+		color: white;
+	} */
+
+	.individual .productDisp .right button {
+		color: black;
+		background-color: transparent;
+		border: 2px solid black;
+		font-size: 1.5rem;
+		font-weight: 600;
+		border-radius: 10px;
+		height: 50px;
+		width: 150px;
+		margin-top: 50px;
+		cursor: pointer;
+	}
+
+	.individual .productDisp .right button:hover {
+		color: white;
+		background-color: black;
+	}
 }
+
+/* //TODO: 1. add responsiveness to the individual  product page
+		2. add logic to the button.  */

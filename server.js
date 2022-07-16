@@ -20,6 +20,12 @@ app.get("/gal", (req, res) => {
 app.get("/products", (req, res) => {
 	res.render("products", { data });
 });
+app.get("/products/:productID", (req, res) => {
+	let { productID: id } = req.params;
+	let product = data[id - 1];
+	console.log(product);
+	res.render("individual", { product });
+});
 app.get("/const", (req, res) => {
 	res.render("upcomming");
 });
