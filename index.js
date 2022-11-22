@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const { data, images } = require("./data.js");
 const hbs = require("hbs");
+let port = process.env.PORT || 6969;
 
 const staticPath = __dirname + "/public";
 app.use("/public", express.static(staticPath));
@@ -35,6 +36,6 @@ app.get("/const", (req, res) => {
 app.get("*", (req, res) => {
 	res.sendStatus(404);
 });
-app.listen(6969, () => {
+app.listen(port, () => {
 	console.log("Sever is running at port no 6969");
 });
