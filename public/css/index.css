@@ -7,7 +7,7 @@
 
 nav {
 	background: black;
-	padding: 2px 40px;
+	padding: 2px 5px;
 }
 
 ul {
@@ -115,7 +115,7 @@ code below are for mobile view */
 }
 
 .home {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg8.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg2.jpg);
 	height: 50vh;
 	width: auto;
 	background-repeat: no-repeat;
@@ -322,7 +322,7 @@ code below are for mobile view */
 	border-radius: 10px;
 	height: 50px;
 	width: 150px;
-	margin: 50px 0px;
+	margin: 20px 0px;
 	cursor: pointer;
 }
 
@@ -522,7 +522,7 @@ code below are for mobile view */
 	}
 
 	.home {
-		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg8.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg2.jpg);
 		height: 50vh;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -706,7 +706,6 @@ code below are for mobile view */
 	.rightContact input {
 		font-size: 1.4rem;
 		margin-bottom: 5px;
-		margin-left: 10px;
 	}
 
 	#btn {
@@ -718,7 +717,7 @@ code below are for mobile view */
 		border-radius: 10px;
 		height: 50px;
 		width: 150px;
-		margin: 50px 0px;
+		margin: 20px 0px;
 		cursor: pointer;
 	}
 
@@ -793,7 +792,7 @@ code below are for mobile view */
 		width: 90%;
 		margin: 0 auto;
 		display: grid;
-		grid-template-rows: 1fr 6fr 1fr;
+		grid-template-rows: 1fr 2fr 1fr;
 	}
 
 	.productCard {
@@ -887,7 +886,7 @@ code below are for mobile view */
 	}
 
 	.home {
-		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg8.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/public/images/bg2.jpg);
 		height: 100vh;
 
 		background-repeat: no-repeat;
@@ -1215,6 +1214,7 @@ code below are for mobile view */
 		width: 90%;
 		margin: 0 auto;
 		display: grid;
+		align-items: center;
 		/* grid-template-rows: 2fr 5.5fr 1fr; */
 	}
 
@@ -1325,3 +1325,158 @@ code below are for mobile view */
 
 /* //TODO: 1. add responsiveness to the individual  product page
 		2. add logic to the button.  */
+
+
+:root {
+	--color-1: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+/*header*/
+.header {
+	background-color: black;
+	padding: 12px 0;
+	position: relative;
+}
+
+.header .logo,
+.header .nav {
+	padding: 0 15px;
+}
+
+.header .logo a {
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+.header .nav ul li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.header .nav ul li a {
+	display: block;
+	font-size: 16px;
+	padding: 10px 0;
+	color: rgba(255, 255, 255, 0.7);
+	text-transform: capitalize;
+	transition: all 0.5s ease;
+	text-align-last: left;
+}
+
+.header .nav ul li a:hover,
+.header .nav ul li a.active {
+	color: #ffffff;
+}
+
+.header #nav-check {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.nav-toggler {
+	height: 34px;
+	width: 44px;
+	cursor: pointer;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.nav-toggler span {
+	display: block;
+	height: 2px;
+	width: 20px;
+	background-color: var(--color-1);
+	position: relative;
+}
+
+.nav-toggler span::before,
+.nav-toggler span::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: var(--color-1);
+	left: 0;
+}
+
+.nav-toggler span::before {
+	top: -6px;
+}
+
+.nav-toggler span::after {
+	top: 6px;
+}
+
+@media(max-width: 991px) {
+	.nav-toggler {
+		display: flex;
+	}
+
+	.header .nav {
+		position: absolute;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		background-color: black;
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.header .nav ul li {
+		display: block;
+		margin: 0;
+	}
+
+	.header #nav-check:checked~.nav {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.header #nav-check:focus~.nav-toggler {
+		box-shadow: 0 0 15px #000000;
+	}
+
+	.header #nav-check:checked~.nav-toggler span {
+		background-color: transparent;
+	}
+
+	.header #nav-check:checked~.nav-toggler span::before {
+		top: 0;
+		transform: rotate(45deg);
+	}
+
+	.header #nav-check:checked~.nav-toggler span::after {
+		top: 0;
+		transform: rotate(-45deg);
+	}
+}
