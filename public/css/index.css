@@ -3,6 +3,11 @@
 	padding: 0;
 	margin: 0;
 	font-family: "Exo", sans-serif;
+	transition: all ease-in .2s;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 nav {
@@ -464,7 +469,7 @@ code below are for mobile view */
 	column-gap: 30px;
 	padding: 3rem 5rem;
 	text-align: center;
-	/* //FIXME: */
+
 }
 
 .footer ul {
@@ -792,7 +797,7 @@ code below are for mobile view */
 		width: 90%;
 		margin: 0 auto;
 		display: grid;
-		grid-template-rows: 1fr 2fr 1fr;
+		grid-template-rows: 1fr 4fr 1fr;
 	}
 
 	.productCard {
@@ -1209,13 +1214,10 @@ code below are for mobile view */
 	}
 
 	.shopwrapper {
-		/* text-align: center; */
-		/* padding: 10px 10px; */
 		width: 90%;
 		margin: 0 auto;
 		display: grid;
-		align-items: center;
-		/* grid-template-rows: 2fr 5.5fr 1fr; */
+
 	}
 
 	.productCard {
@@ -1227,7 +1229,7 @@ code below are for mobile view */
 	}
 
 	.productCard h1 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		text-align: left;
 	}
 
