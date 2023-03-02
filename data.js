@@ -2,10 +2,10 @@ const data = [
 	{
 		id: 1,
 		title: "Green Aqua CO2 system with CO2 reactor (16/22 mm)",
-		price: 227.96,
+		price: 255.78,
 		description:
-			"Contains every thing you need to  setup a CO2 system for your arquarium.The set does not contain the CO2 canister by default, CO2 cylinders not allowed to ship by the law.",
-		category: "CO2",
+			"Contains every thing you need to  setup a CO2 system for your arquarium.This set comes with CO2 reactor.The set does not contain the CO2 canister by default, CO2 cylinders not allowed to ship by the law.",
+		category: "CO2 system",
 		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/c/o/co2_rendszer_reaktor_1.jpg",
 		rating: {
 			rate: 3.9,
@@ -18,7 +18,7 @@ const data = [
 		price: 90.45,
 		description:
 			"1 disposable CO2 cylinder for Plant Growth System Nano. A 95 g CO2 cartridge contains 50,000ml CO2. The table shows recommended dosage (bubbles per minute) in different tank sizes",
-		category: "CO2",
+		category: "CO2 system",
 		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/5/_/5_12.jpg",
 		rating: {
 			rate: 4.1,
@@ -31,7 +31,7 @@ const data = [
 		price: 24.33,
 		description:
 			"The Aquario NEO Special Type Curved acrylic CO2 diffusor is an acrylic CO2 Diffusor with a very narrow diffusor body and the connection to the pipe at its side. The special ceramic membrane produces a fine mist and the CO2 gets dissolved very quickly. The special small design ensures a fine integration of the diffusor into small and nano tanks.",
-		category: "CO2",
+		category: "CO2 system",
 		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/9/9/999061.jpg",
 		rating: {
 			rate: 4.7,
@@ -44,7 +44,7 @@ const data = [
 		price: 100.31,
 		description:
 			"Pollen Glass Mini is designed for small size aquariums such as Cube Garden Mini S and M (For pool type aquarium with less than 5mm glass thickness). It can be set without using any suction cups in the small size aquarium tank.",
-		category: "CO2",
+		category: "CO2 system",
 		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/p/o/pollen_glass_mini.jpg",
 		rating: {
 			rate: 2.1,
@@ -57,7 +57,7 @@ const data = [
 		price: 72.47,
 		description:
 			"Type 3 inherited the diffusing ability from original and TYPE-2 and made a renewal of basic design. Silicone tube connecting part is in upright position, and it can be connected without bending the tube. It is for 60cm tank.",
-		category: "CO2",
+		category: "CO2 system",
 		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/1/0/102-1014.jpg",
 		rating: {
 			rate: 4.6,
@@ -259,34 +259,150 @@ const data = [
 			count: 145,
 		},
 	},
-];
-const images = [
 	{
-		id: 1,
-		title: "Green Aqua CO2 system with CO2 reactor (16/22 mm)",
-		price: 227.96,
+		id: 21,
+		title: "Green Aqua CO2 system with CO2 diffuse (upto 120 liters)",
+		price: 193.46,
 		description:
-			"Contains every thing you need to  setup a CO2 system for your arquarium.The set does not contain the CO2 canister by default, CO2 cylinders not allowed to ship by the law.",
-		category: "CO2",
-		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/c/o/co2_rendszer_reaktor_1.jpg",
+			"Contains every thing you need to setup a CO2 system for your arquarium.This set contains a CO2 diffuser and can be used in tanks upto 120 liters. The set does not contain the CO2 canister by default, CO2 cylinders not allowed to ship by the law.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/9c5baa323285d5880e7c021cbdefd0c6/c/o/co2_rendszer_diffuzor_1.jpg",
 		rating: {
 			rate: 3.9,
 			count: 120,
 		},
 	},
 	{
-		id: 20,
-		title: "ADA Solar RGB - LED light 130 W",
-		price: 829.37,
+		id: 22,
+		title: "AquaCare 50 External CO2 Reactor 19/27 (20 mm)",
+		price: 72.47,
 		description:
-			"High Color Rendering LED Lighting System for Planted Aquarium Innovative LED lighting that brightens up your plants.We are very excited to announce that the long anticipated launch of our newest LED lighting system, Solar RGB, is around the corner! Having a different type of LED lighting than that of the AQUASKY series, Solar RGB is equipped with RGB LED lights, which make red and green colors of aquatic plants look more brightly and efficiently.",
-		category: "lighting",
-		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/s/o/solar_rgb_2.jpg",
+			"The pressure side of an external filter or a pump leads to the upper connection of the reactor - the lower connection leads back again into the aquarium. With very strong pumps the reactor should be operated in the bypass. The CO2 bubbles from the bottom into the reactor - an extra bubble counter is not necessary, if the equipment is well visibly attached.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/9c5baa323285d5880e7c021cbdefd0c6/a/q/aquacare_1_1.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 23,
+		title: "Aqua Medic 1000 - external CO2 reactor",
+		price: 86.97,
+		description:
+			"Reactor 1000 is a hermetically sealed unit for introducing CO2 into larger aquariums. The universal mounting plate enables it to be mounted outside the aquarium or inside the cabinet. This powerful unit can supply aquaria up to 2,000 litres (c. 500 gallons) with CO2.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/a/q/aqua-medic-reactor-1000.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 23,
+		title: "Aqua Medic 1000 - external CO2 reactor",
+		price: 86.97,
+		description:
+			"Reactor 1000 is a hermetically sealed unit for introducing CO2 into larger aquariums. The universal mounting plate enables it to be mounted outside the aquarium or inside the cabinet. This powerful unit can supply aquaria up to 2,000 litres (c. 500 gallons) with CO2.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/a/q/aqua-medic-reactor-1000.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 24,
+		title: "Chihiros CO2 Pressure Regulator with fine needle valve",
+		price: 86.97,
+		description:
+			"The pressure in CO2 bottles is much too high to be handled safely without a proper pressure regulation. Solenoid valves, used for aquariums are safe for a pressure up to a maximum of 10 bars, standard tubing may be used up to 1 bar, special CO2 tubes up to 6 bars. The pressure in a CO2 bottle varies, depending on the room temperature between 60 and 70 bar. In order to reduce this pressure down to the optimum working pressure of the aqualine CO2 system, a pressure regulator is needed.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/5/350-1100.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 25,
+		title: "Chihiros CO2 Pressure Regulator with solenoid valve, fine needle valve",
+		price: 115.97,
+		description:
+			"The pressure in CO2 bottles is much too high to be handled safely without a proper pressure regulation. Solenoid valves, used for aquariums are safe for a pressure up to a maximum of 10 bars, standard tubing may be used up to 1 bar, special CO2 tubes up to 6 bars. The pressure in a CO2 bottle varies, depending on the room temperature between 60 and 70 bar. In order to reduce this pressure down to the optimum working pressure of the aqualine CO2 system, a pressure regulator is needed.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/5/350-2100.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 26,
+		title: "Oxyturbo Major 2 CO2 Pressure Regulator with fine needle valve",
+		price: 115.97,
+		description:
+			"The pressure in CO2 bottles is much too high to be handled safely without a proper pressure regulation. Solenoid valves, used for aquariums are safe for a pressure up to a maximum of 10 bars, standard tubing may be used up to 1 bar, special CO2 tubes up to 6 bars. The pressure in a CO2 bottle varies, depending on the room temperature between 60 and 70 bar. In order to reduce this pressure down to the optimum working pressure of the aqualine CO2 system, a pressure regulator is needed.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/o/x/oxyturbo-co2-reduktor.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 27,
+		title: "Oxyturbo CO2 Pressure Regulator with solenoid valve, fine needle valve",
+		price: 115.97,
+		description:
+			"The pressure in CO2 bottles is much too high to be handled safely without a proper pressure regulation. Solenoid valves, used for aquariums are safe for a pressure up to a maximum of 10 bars, standard tubing may be used up to 1 bar, special CO2 tubes up to 6 bars. The pressure in a CO2 bottle varies, depending on the room temperature between 60 and 70 bar. In order to reduce this pressure down to the optimum working pressure of the aqualine CO2 system, a pressure regulator is needed.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/o/x/oxy015.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 28,
+		title: "ADA Pollen Glass Beetle 30Ø",
+		price: 124.67,
+		description:
+			"Pollen Glass Beetle has a wider diffusion filter. Unique design Beetle sits conveniently on an inside corner of an aquarium tank. For a large size tank, Beetle can be placed on multiple numbers of corners. 30Ø is suitable for 90cm size tank, 40Ø for 90-120cm tank, and 50Ø for 120-180cm tank.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/p/o/pollen_glass_beetle30.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 29,
+		title: "Green Aqua CO2 solenoid valve",
+		price: 55.07,
+		description:
+			"The Green Aqua CO2 Solenoid Valve is an electronic solenoid valve for CO2, and has a high quality nickel plated brass body with a maximum operating pressure of 4 bar / 60 psi, pressure fittings for flexible hose and can be connected to all CO2 units. The solenoid coil consumes only 2.5W preventing overheating. It operates using a power source of 220V.",
+		category: "CO2 system",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/c/o/co2-magenetic-valve.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 29,
+		title: "Dennerle Evolution Deluxe pH Controller - CO2 controller",
+		price: 55.07,
+		description:
+			"The pH controller Evolution DeLuxe forms part of DENNERLE’s top-of-the-range CO2 control system. It measures the pH value in the aquarium continuously by electronic means and controls the supply of CO2 automatically via a CO2 solenoid valve (DENNERLE CO2 night cut-off valve).",
+		category: "testing",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/0/3093_ps_de_ph-contr.evodelu_front.jpg",
 		rating: {
 			rate: 3.6,
 			count: 145,
 		},
 	},
 ];
+const images = [];
 
 module.exports = { data, images };
