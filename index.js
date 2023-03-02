@@ -24,15 +24,12 @@ app.get("/products", (req, res) => {
 app.get("/products/:productID", (req, res) => {
 	let { productID: id } = req.params;
 	let product = data[id - 1];
-	console.log(product);
 	res.render("individual", { product });
 });
 app.get("/const", (req, res) => {
 	res.render("upcomming");
 });
-// app.use("/login", loginRoutes);
-// app.use("/register", registerRoutes);
-// app.use("/api/products", productsRoutes);
+
 app.get("*", (req, res) => {
 	res.sendStatus(404);
 });
