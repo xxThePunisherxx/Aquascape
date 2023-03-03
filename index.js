@@ -17,17 +17,22 @@ app.get("/", (req, res) => {
 app.get("/gal", (req, res) => {
 	res.render("galleryPage", { images });
 });
+app.get("/const", (req, res) => {
+	res.render("upcomming");
+});
 
 app.get("/products", (req, res) => {
 	res.render("products", { data });
 });
+app.get("/:categoryName", (req, res) => {
+	let { categoryName: filterName } = req.params;
+	const filtereddata = data.filter((individual) => individual.category === filterName);
+	res.render("Category", { filtereddata });
+});
 app.get("/products/:productID", (req, res) => {
 	let { productID: id } = req.params;
-	let product = data[id - 1];
+	let product = data[id];
 	res.render("individual", { product });
-});
-app.get("/const", (req, res) => {
-	res.render("upcomming");
 });
 
 app.get("*", (req, res) => {
