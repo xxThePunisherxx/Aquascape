@@ -14,9 +14,9 @@ app.use(express.json());
 app.get("/", (req, res) => {
 	res.render("index");
 });
-app.get("/gal", (req, res) => {
-	res.render("galleryPage", { images });
-});
+// app.get("/gal", (req, res) => {
+// 	res.render("galleryPage", { images });
+// });
 app.get("/const", (req, res) => {
 	res.render("upcomming");
 });
