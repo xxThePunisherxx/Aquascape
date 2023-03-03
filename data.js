@@ -1,6 +1,6 @@
 const data = [
 	{
-		id: 1,
+		id: 0,
 		title: "Green Aqua CO2 system with CO2 reactor (16/22 mm)",
 		price: 255.78,
 		description:
@@ -13,7 +13,7 @@ const data = [
 		},
 	},
 	{
-		id: 2,
+		id: 1,
 		title: "Tropica System Nano Set 95g",
 		price: 90.45,
 		description:
@@ -26,7 +26,7 @@ const data = [
 		},
 	},
 	{
-		id: 3,
+		id: 2,
 		title: "Aquario NEO Special Type Curved acrilyc CO2 diffusor - medium",
 		price: 24.33,
 		description:
@@ -39,7 +39,7 @@ const data = [
 		},
 	},
 	{
-		id: 4,
+		id: 3,
 		title: "ADA Pollen Glass Mini",
 		price: 100.31,
 		description:
@@ -52,7 +52,7 @@ const data = [
 		},
 	},
 	{
-		id: 5,
+		id: 4,
 		title: "ADA Pollen Glass Type-3 - CO2 diffusor",
 		price: 72.47,
 		description:
@@ -65,7 +65,7 @@ const data = [
 		},
 	},
 	{
-		id: 6,
+		id: 5,
 		title: "Green Aqua Excel Plant Wellness - Fertilizer Pack 1000 ml ",
 		price: 59.36,
 		description:
@@ -79,7 +79,7 @@ const data = [
 		},
 	},
 	{
-		id: 7,
+		id: 6,
 		title: "2hr APT3 Complete plant fertilizer - 200 ml",
 		price: 16.21,
 		description:
@@ -92,7 +92,7 @@ const data = [
 		},
 	},
 	{
-		id: 8,
+		id: 7,
 		title: "Tropica Specialised Nutrition - 750 ml",
 		price: 24.33,
 		description: "With nitrogen and phosphate.Also contains iron, manganese and important micronutrients.Promotes healthy plant growth.",
@@ -104,7 +104,7 @@ const data = [
 		},
 	},
 	{
-		id: 9,
+		id: 8,
 		title: "Tropica Plant Growth Premium Fertiliser 300 ml",
 		price: 12.15,
 		description:
@@ -117,7 +117,7 @@ const data = [
 		},
 	},
 	{
-		id: 10,
+		id: 9,
 		title: "ADA Aqua Soil Amazonia Ver.2 General Plant substrate",
 		price: 40.57,
 		description:
@@ -130,7 +130,7 @@ const data = [
 		},
 	},
 	{
-		id: 11,
+		id: 10,
 		title: "Tropica Aquarium Soil 9L",
 		price: 37.41,
 		description:
@@ -143,7 +143,7 @@ const data = [
 		},
 	},
 	{
-		id: 12,
+		id: 11,
 		title: "ADA Colorado Sand - 8kg",
 		price: 27.81,
 		description:
@@ -156,7 +156,7 @@ const data = [
 		},
 	},
 	{
-		id: 13,
+		id: 12,
 		title: "ADA Bacter 100 - substrate additive (bacteria)",
 		price: 22.01,
 		description:
@@ -170,7 +170,7 @@ const data = [
 		},
 	},
 	{
-		id: 14,
+		id: 13,
 		title: "Manten stone (Grey Mountain)",
 		price: 5.51,
 		description:
@@ -183,7 +183,7 @@ const data = [
 		},
 	},
 	{
-		id: 15,
+		id: 14,
 		title: "Seiryu stone",
 		price: 5.51,
 		description:
@@ -196,7 +196,7 @@ const data = [
 		},
 	},
 	{
-		id: 16,
+		id: 15,
 		title: "Dragon - Ohko stone",
 		price: 5.51,
 		description:
@@ -209,7 +209,7 @@ const data = [
 		},
 	},
 	{
-		id: 17,
+		id: 16,
 		title: "Oase BioMaster Thermo 600 - External Filter with original Oase filter media",
 		price: 296.64,
 		description: "Products of the Oase brand from Germany are delivering the highest performance, to meet professional aquarium requirements.",
@@ -221,7 +221,7 @@ const data = [
 		},
 	},
 	{
-		id: 18,
+		id: 17,
 		title: "Seachem Tidal Power filter - 55 with Seachem Matrix",
 		price: 58.55,
 		description:
@@ -234,12 +234,12 @@ const data = [
 		},
 	},
 	{
-		id: 19,
+		id: 18,
 		title: "Chihiros WRGB II SLIM 45 cm LED light (45-60 cm, 35 W, 1800 lm)",
 		price: 144.97,
 		description:
 			"Perfect choice for high-tech aquariums, even with the most demanding plants. With the help of the built-in Bluetooth controller and the My Chihiros application you can change the color and brightness of the light to your liking so you can easily achieve the perfect look for your own taste. You can even set sunrise and sunset with a few clicks in the app which is not only cool but also better for your fish than suddenly turning the light on or off.",
-		category: "Lighting",
+		category: "lighting",
 		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/c/h/chihiros-wrgbii-slim-led-4.jpg",
 		rating: {
 			rate: 4.5,
@@ -247,7 +247,7 @@ const data = [
 		},
 	},
 	{
-		id: 20,
+		id: 19,
 		title: "ADA Solar RGB - LED light 130 W",
 		price: 829.37,
 		description:
@@ -260,7 +260,7 @@ const data = [
 		},
 	},
 	{
-		id: 21,
+		id: 20,
 		title: "Green Aqua CO2 system with CO2 diffuse (upto 120 liters)",
 		price: 193.46,
 		description:
@@ -273,7 +273,7 @@ const data = [
 		},
 	},
 	{
-		id: 22,
+		id: 21,
 		title: "AquaCare 50 External CO2 Reactor 19/27 (20 mm)",
 		price: 72.47,
 		description:
@@ -286,7 +286,7 @@ const data = [
 		},
 	},
 	{
-		id: 23,
+		id: 22,
 		title: "Aqua Medic 1000 - external CO2 reactor",
 		price: 86.97,
 		description:
@@ -390,13 +390,310 @@ const data = [
 		},
 	},
 	{
-		id: 29,
+		id: 30,
 		title: "Dennerle Evolution Deluxe pH Controller - CO2 controller",
 		price: 55.07,
 		description:
 			"The pH controller Evolution DeLuxe forms part of DENNERLE’s top-of-the-range CO2 control system. It measures the pH value in the aquarium continuously by electronic means and controls the supply of CO2 automatically via a CO2 solenoid valve (DENNERLE CO2 night cut-off valve).",
-		category: "testing",
+		category: "CO2 system",
 		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/0/3093_ps_de_ph-contr.evodelu_front.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 31,
+		title: "Jebao MD-4.4 - Wifi Smart doser with 4 pumps",
+		price: 173.97,
+		description:
+			"The Jebao Doser MD 4.4 is a newly innovated WIFI smart, and affordable dosing pump with 4 dosing heads. Each pump can be programmed to come on up to 24 times a day and dispense a precise amount of solution, which allows a user to keep their tank parameters stable, and removes the need for mixing supplements daily.",
+		category: "Computers",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/f/r/front.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 32,
+		title: "JBL LED Solar Control WiFi",
+		price: 231.97,
+		description: "JBL LED SOLAR CONTROL - Control unit for JBL LED SOLAR lights, to be adjusted by app",
+		category: "Computers",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/j/b/jbl61918.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 33,
+		title: "ISTA pH Controller",
+		price: 153.67,
+		description:
+			"This pH Controller designed by Ista is a fantastic, convenient device that will greatly aid you in monitoring the acidity level of your aquarium water. Functional in both freshwater and saltwater applications, this Controller provides convenient measurement of pH levels.",
+		category: "Computers",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/i/-/i-897.png",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 34,
+		title: "Chihiros Smart Wifi Hub",
+		price: 34.19,
+		description: "Connect Chihiros Devices throught WiFi",
+		category: "Computers",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/3/331-9999.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 35,
+		title: "Chihiros straight scissor - 21 cm",
+		price: 13.31,
+		description:
+			"Perfect choice for beginners and advanced aquascapers. Straight scissors are recommended for trimming smaller bushes and stemplants in the background. For trimming carpeting plants we recommend using curved scissors.",
+		category: "Accessories",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/4/343-3021.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 36,
+		title: "Tropica Spring scissors - 15 cm",
+		price: 27.81,
+		description: "Handy plant scissors for trimming of aquarium plants",
+		category: "Accessories",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/3/33-717.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 37,
+		title: "Oase plant tweezers (curved) - 25 cm",
+		price: 18.53,
+		description:
+			"Perfect for amateurs and advanced hobbyists. It's suitable for planting both small bushes and long stems with it's curved tip. Tight pinsette from quality materials.",
+		category: "Accessories",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/o/a/oase_csipesz_1000x1000.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 38,
+		title: "GreenWorks Sand Flattener - 32 cm",
+		price: 12.51,
+		description: ".Specially-designed to suit a professional's needs. ",
+		category: "Accessories",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/g/r/greenworks-talaj-egyengeto-32cm_2.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 39,
+		title: "ADA DOOA Scissor Curve type - S - 17cm",
+		price: 40.57,
+		description: "AQUA SCISSORS are designed specifically for trimming aquatic plants. Curved blades make the trimming of foreground plants easier.",
+		category: "Accessories",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/g/r/greenworks-talaj-egyengeto-32cm_2.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 40,
+		title: "Chihiros Spiral type glass surface skimmer - 17 mm (16/22mm)",
+		price: 51.52,
+		description: "Helps to reduce surface scumm and enhance gas exchange.",
+		category: "Accessories",
+		image:
+			"https://cdn.shopify.com/s/files/1/0636/5668/9882/products/Chihiros-Spiral-type-glass-surface-skimmer---17-mm-_16-22mm_-Chihiros-Aquatic-Studio-1661134037_720x.jpg?v=1661134040",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 41,
+		title: "Spiral Bubble Counter",
+		price: 19.31,
+		description: "Help to effectively controll and visually see the amount of CO2 injected to your aquarium.",
+		category: "Accessories",
+		image:
+			"https://cdn.shopify.com/s/files/1/0636/5668/9882/products/Spiral-Bubble-Counter-chihiros-aquatic-studio-1661134555_540x.webp?v=1661134557",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 42,
+		title: "Chihiros Lily type glass outflow - 17 mm",
+		price: 35.77,
+		description: "Enhance surface movement and gas exchange.",
+		category: "Accessories",
+		image:
+			"https://cdn.shopify.com/s/files/1/0636/5668/9882/products/Chihiros-Lily-type-glass-outflow---17-mm-Chihiros-Aquatic-Studio-1661133991_720x.jpg?v=1661133992",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 43,
+		title: "Tropica plant - Eleocharis acicularis mini TC (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/2/_/2_45.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 44,
+		title: "Stoffels plant - Lagenandra meeboldii Bleeding Heart (In-Vitro)",
+		price: 9.57,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/1/5/15097_1.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 45,
+		title: "ADA plant - Rotala macrandra mini sp. In-Vitro S",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image:
+			"https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/c/u/cup_ic438_rotala_macrandra_mini_sp.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 46,
+		title: "Dennerle Plants - Glossostigma elatinoides (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image:
+			"https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/8/0/800-glossostigma-elatinoides-invitro-2.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 47,
+		title: "Dennerle Plants - Pogostemon erectus deccanensis (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/0/30041_pogostemon_erectus.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 48,
+		title: "Dennerle Plants - Staurogyne repens (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/3/0/30044-staurogyne-repens-invitro.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 49,
+		title: "Tropica plant - Hygrophila pinnatifida TC (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/p/i/pin2.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 50,
+		title: "Tropica plant - Alternanthera reineckii Mini TC (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/r/e/rein.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 51,
+		title: "Tropica plant - Rotala Vietnam Hra TC (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/r/o/rot.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 52,
+		title: "Tropica plant - Micranthemum callitrichoides Cuba TC (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/c/u/cuba3.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 53,
+		title: "Tropica plant - Staurogyne repens TC (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/s/t/stau.jpg",
+		rating: {
+			rate: 3.6,
+			count: 145,
+		},
+	},
+	{
+		id: 54,
+		title: "Tropica plant - Micranthemum Sp. Monte Carlo TC (In-Vitro)",
+		price: 6.96,
+		description: "",
+		category: "Plants",
+		image: "https://i3x7x2h3.stackpathcdn.com/media/catalog/product/cache/a9f5b46441c9caeb48dbb3f5b899a840/m/o/monte.jpg",
 		rating: {
 			rate: 3.6,
 			count: 145,
